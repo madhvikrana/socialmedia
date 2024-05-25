@@ -20,6 +20,9 @@ const NavBar = () => {
                 <HomeOutlinedIcon/>
                 <DarkModeOutlinedIcon/>
                 <GridViewOutlinedIcon/>
+                <div className="search">
+                  <SearchOutlinedIcon/> 
+                </div>
            
         </div>
         <div className="right"></div>
