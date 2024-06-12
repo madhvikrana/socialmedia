@@ -93,7 +93,7 @@ const RightBar = () => {
                 src="https://images.pexels.com/photos/22626145/pexels-photo-22626145/free-photo-of-a-woman-with-blonde-hair-and-a-lollipop.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
                 alt=""
               />
-              <div className="online"/>
+              <div className="online" />
 
               <span>Madhvi</span>
             </div>
@@ -104,7 +104,7 @@ const RightBar = () => {
                 src="https://images.pexels.com/photos/22626145/pexels-photo-22626145/free-photo-of-a-woman-with-blonde-hair-and-a-lollipop.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
                 alt=""
               />
-              <div className="online"/>
+              <div className="online" />
 
               <span>Madhvi</span>
             </div>
@@ -115,7 +115,7 @@ const RightBar = () => {
                 src="https://images.pexels.com/photos/22626145/pexels-photo-22626145/free-photo-of-a-woman-with-blonde-hair-and-a-lollipop.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
                 alt=""
               />
-              <div className="online"/>
+              <div className="online" />
 
               <span>Madhvi</span>
             </div>
@@ -126,7 +126,7 @@ const RightBar = () => {
                 src="https://images.pexels.com/photos/22626145/pexels-photo-22626145/free-photo-of-a-woman-with-blonde-hair-and-a-lollipop.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
                 alt=""
               />
-              <div className="online"/>
+              <div className="online" />
 
               <span>Madhvi</span>
             </div>
@@ -137,7 +137,7 @@ const RightBar = () => {
                 src="https://images.pexels.com/photos/22626145/pexels-photo-22626145/free-photo-of-a-woman-with-blonde-hair-and-a-lollipop.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
                 alt=""
               />
-              <div className="online"/>
+              <div className="online" />
 
               <span>Madhvi</span>
             </div>
@@ -148,7 +148,7 @@ const RightBar = () => {
                 src="https://images.pexels.com/photos/22626145/pexels-photo-22626145/free-photo-of-a-woman-with-blonde-hair-and-a-lollipop.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
                 alt=""
               />
-              <div className="online"/>
+              <div className="online" />
 
               <span>Madhvi</span>
             </div>

@@ -12,7 +12,8 @@ export const AuthContextProvider = ({ children }) => {
     setCurrentUser({
       id: 1,
       name: "Sandhya",
-      profilePic:"https://images.pexels.com/photos/17392871/pexels-photo-17392871/free-photo-of-young-woman-standing-in-the-forest-in-summer.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+      profilePic:
+        "https://images.pexels.com/photos/17392871/pexels-photo-17392871/free-photo-of-young-woman-standing-in-the-forest-in-summer.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
     });
   };
 
@@ -21,7 +22,7 @@ export const AuthContextProvider = ({ children }) => {
   }, [currentUser]);
 
   return (
-    <AuthContext.Provider value={{currentUser, login  }}>
+    <AuthContext.Provider value={{ currentUser, login }}>
       {children}
     </AuthContext.Provider>
   );
