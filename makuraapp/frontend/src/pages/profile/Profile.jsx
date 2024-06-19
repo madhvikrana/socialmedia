@@ -47,8 +47,9 @@ const profile = () => {
               <LanguageIcon/>
               <span>Rana.dev</span>
             </div>
-            <button>follow</button>
+            
           </div>
+          <button>follow</button>
         </div>
         <div className="right">
           <EmailOutlinedIcon/>

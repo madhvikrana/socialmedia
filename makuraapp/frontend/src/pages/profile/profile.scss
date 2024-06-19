@@ -1,6 +1,6 @@
 @import "../../style.scss";
 
-.profile {
+.Profile {
   @include themify($themes) {
     background-color: themed("bgSoft");
 
@@ -27,9 +27,9 @@
         top: 200px;
       }
     }
-    profileContainer {
+    .profileContainer {
       padding: 20px 70px;
-      
+
       .uIfno {
         height: 180px;
         -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
@@ -39,6 +39,52 @@
         background-color: themed("bg");
         color: themed("textColor");
         padding: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+          flex: 1;
+          display: flex;
+          gap: 10px;
+        }
+        .center {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+
+          span {
+            font-size: 30px;
+            font-weight: 500;
+          }
+
+          .info {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .item {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+              color: themed("textColorSoft");
+
+              span {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+        .right {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          gap: 10px;
+        }
       }
     }
   }
