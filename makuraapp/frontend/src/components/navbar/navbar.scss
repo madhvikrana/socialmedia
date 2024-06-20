@@ -32,11 +32,17 @@
         border: 1px solid themed("border");
         border-radius: 5px;
         padding: 5px;
+
+
         input {
           border: none;
           width: 500px;
           background-color: transparent;
           color: themed("textColor");
+
+          @include mobile{
+            display: none;
+          }
         }
       }
     }
@@ -45,6 +51,10 @@
       display: flex;
       align-items: center;
       gap: 20px;
+
+      @include mobile{
+        display: none;
+      }
 
       .user {
         img {
