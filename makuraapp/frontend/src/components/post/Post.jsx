@@ -9,9 +9,7 @@ import { Link } from "react-router-dom";
 import Comments from "../Comments/Comments";
 
 const Post = ({ post }) => {
-    const [commentOpen, setCommentOpen] = useState(false)
-
-
+  const [commentOpen, setCommentOpen] = useState(false);
 
   //TEMPORARY
   const liked = true;
@@ -43,7 +41,7 @@ const Post = ({ post }) => {
             {liked ? <FavoriteOutlinedIcon /> : <FavoriteBorderOutlinedIcon />}
             12 Likes
           </div>
-          <div className="item" onClick={()=>setCommentOpen(!commentOpen)}>
+          <div className="item" onClick={() => setCommentOpen(!commentOpen)}>
             <TextsmsOutlinedIcon />2 Comments
           </div>
           <div className="item">
@@ -51,7 +49,7 @@ const Post = ({ post }) => {
             Share
           </div>
         </div>
-        {commentOpen && <Comments/>}
+        {commentOpen && <Comments />}
       </div>
     </div>
   );

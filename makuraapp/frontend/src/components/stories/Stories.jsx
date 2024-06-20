@@ -33,7 +33,7 @@ const Stories = () => {
         <img src={currentUser.profilePic} alt="" />
         <span>{currentUser.name}</span>
         <button>+</button>
-      </div> 
+      </div>
       {stories.map((story) => (
         <div className="story" key={story.id}>
           <img src={story.img} alt="" />
